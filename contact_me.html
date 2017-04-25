@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <title>Murat KARA Personal Website</title>
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="mystyle.css" rel="stylesheet">
+</head>
+
+<body>
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="home_page.html">Murat KARA</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="home_page.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="menu" aria-haspopup="true" aria-expanded="false">About Me <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about_me.html"> About Me </a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="my_photos.html"> My Photos </a></li>
+                        <li><a href="my_hobbies.html"> My Hobbies </a></li>
+                        <li><a href="my_family.html"> My Family </a></li>
+                        <li><a href="my_hometown.html"> My Hometown </a></li>
+                    </ul>
+                </li>
+                <li class="active" ><a href="contact_me.html">Contact Me</a></li>
+                <li><a href="registration.html"> Registration </a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+<br>
+<div class="container">
+    <p> <em> Your suggestions and messages very imoportant for me :)</em> </p>
+    <form action="" method="post" enctype="multipart/form-data">
+        Please enter your first name:
+        <input type="name" name="first-name"><br>
+        Please enter your last name:
+        <input type="name" name="last-name"><br>
+        Gender:
+        <input type="radio" name="Gender" value="Male"> Male
+        <input type="radio" name="Gender" value="Female"> Female
+        <input type="radio" name="Gender" value="I dont want specify"> I dont want specify<br>
+        Please enter your e-mail:
+        <input type="e-mail" name="e-mail"><br>
+        Date of Bith:
+        <input type="Date" name="Date"><br>
+        City:
+        <select>
+            <option value="Samsun">Samsun</option>
+            <option value="Eskişehir">Eskişehir</option>
+            <option value="Trabzon">Trabzon</option>
+            <option value="Ankara">Ankara</option>
+            <option value="İstanbul">İstanbul</option>
+            <option value="İzmir">izmir</option>
+            <option value="Antalya">Antalya</option>
+        </select><br>
+        Your Interest:<br>
+        <input type="checkbox" name="Drawing"> Drawing <br>
+        <input type="checkbox" name="Swimming" > Swimming <br>
+        <input type="checkbox" name="Design" > UX/UI Design <br>
+        <input type="checkbox" name="Cycling" > Cycling <br>
+        <input type="checkbox" name="Other" > Other <br>
+
+        If you select other, you specify your hobby.<br>
+        <textarea rows="2" cols="40" name="hobby" >
+		</textarea><br>
+
+        Please enter any feedback you have.<br>
+        <textarea rows="3" cols="60" name="feedback" >
+		Please enter your text here
+		</textarea><br>
+        <input type="submit" name="submit" value="Send!" onclick="alert('Thank You :)')" >
+    </form>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
