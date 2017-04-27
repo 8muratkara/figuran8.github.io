@@ -7,11 +7,29 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="images/favicon.ico">
     <title>Murat KARA Personal Website</title>
     <!-- Bootstrap core CSS -->
     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="mystyle.css" rel="stylesheet">
+    <style>
+        .thumbnail {
+            position: relative;
+            padding: 0px;
+            margin-bottom: 20px;
+        }
+
+        .thumbnail:hover {
+            background-color: #eeeeee;
+        }
+
+        .thumbnail img {
+            width: 100%;
+        }
+
+
+    </style>
+    <link href="my_style.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -29,7 +47,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="menu" aria-haspopup="true" aria-expanded="false">About Me <span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -47,79 +65,138 @@
         </div><!--/.nav-collapse -->
     </div>
 </nav>
-<br>
+
 
 <div class="container">
-    <div>
-        <h1> Samsun </h1>
-    </div>
-    <div>
-        <h3>Name</h3>
-        <p>The present name of the city may come from its former Greek name of Amisos (Αμισός) by a reinterpretation of Eis Amison (meaning to Amisos) + ounta (Greek suffix for place names) to Eis Sampsunda (Σαμψούντα) and then Samsun[1] (pronounced [sɑmsun]).
-            The early Greek historian Hecataeus wrote that Amisos was formerly called Enete, the place mentioned in Homer's Iliad. It has also been known as Peiraieos by Athenian settlers and even briefly as Pompeiopolis by a Roman statesman who wanted it named after him.[2]
-            The city was called Simisso by the Genoese and during the Ottoman Empire the present name was written in Ottoman Turkish: صامسون‎ (Samsoon).</p>
-        <h3>Geography</h3>
-        <p>Samsun is a long city which extends along the coast between two river deltas which jut into the Black Sea. It is located at the end of an ancient route from Cappadocia: the Amisos of antiquity lay on the headland northwest of the modern city center.
-            The city is growing fast: land has been reclaimed from the sea and many more apartment blocks and shopping malls are currently being built. Industry is tending to move (or be moved) east, further away from the city center and towards the airport.</p>
-    </div>
-    <h3>Transport</h3>
-    <p>Long distance buses the bus station is outside the city centre, but most bus companies provide a free transfer there if you have a ticket. Passenger and freight trains run to Sivas via Amasya. The train station is in the city center. Freight trains are taken by ferry to railways at Kavkaz in Russia, and will later see service to the port of Varna in Bulgaria and Poti in Georgia.[38]
-        Modern trams run between the train station and Ondokuz Mayıs University. There is a plan to run electrically powered bus rapid transit between the railway station and Tekkekoy. City buses carry passengers actively.Dolmuş, the routes are numbered 1 to 4 and each route has different color minibuses. The 320 m (1,050 ft) long Samsun Amisos Hill Gondola serves from Batıpark the archaeological area on the Amisos Hill, where ancient tombs in tumuli were discovered.
-        Samsun-Çarşamba Airport is 23 km (14 mi) east of the city center. It is possible to reach the airport by Havas service buses: they depart from the coach park close to Kultur Sarayi in the city center.Horse-drawn carriages,(Turkish:fayton) run along the seafront. There was automated bike rental along the seafront, but it is not currently operational.</p>
-    <p><sub> This information is taken by <a href = "http://www.wikipedia.org" >  Wikipedia </a> </sub></p>
-    <h3>Introduction Video</h3>
-    <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Lkm7fWvNFIc"></iframe>
-    </div>
 
-    <h3>Photos</h3>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
-            <li data-target="#myCarousel" data-slide-to="5"></li>
-        </ol>
+    <legend> Samsun</legend>
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="images/samsun/samsun.jpg" alt="First slide">
-            </div>
-
-            <div class="item">
-                <img src="images/samsun/samsun-1.jpg"  alt="Second slide">
-            </div>
-
-            <div class="item">
-                <img src="images/samsun/samsun-2.jpg" alt="Third slide">
-            </div>
-
-            <div class="item">
-                <img src="images/samsun/samsun-3.jpg"  alt="Fourth slide">
-            </div>
-
-            <div class="item">
-                <img src="images/samsun/samsun-4.jpg" alt="Fifth slide">
-            </div>
-            <div class="item">
-                <img src="images/samsun/samsun-5.jpg" alt="Last slide">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="thumbnail">
+                <img src="images/samsun/ataturk-01.jpg" alt="ataturk">
+                <div class="caption">
+                    <h3 class="text-left">Name</h3>
+                    <p>
+                        The present name of the city may come from its former Greek name of Amisos (Αμισός) by a reinterpretation of Eis Amison (meaning to Amisos) + ounta (Greek suffix for place names) to Eis Sampsunda (Σαμψούντα) and then Samsun[1] (pronounced [sɑmsun]).
+                        The early Greek historian Hecataeus wrote that Amisos was formerly called Enete, the place mentioned in Homer's Iliad.
+                        It has also been known as Peiraieos by Athenian settlers and even briefly as Pompeiopolis by a Roman statesman who wanted it named after him.[2]
+                        The city was called Simisso by the Genoese and during the Ottoman Empire the present name was written in Ottoman Turkish: صامسون‎ (Samsoon).
+                    </p>
+               </div>
             </div>
         </div>
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="thumbnail">
+                <img src="images/samsun/tramvay-01.jpg" alt="ramvay">
+                <div class="caption">
+                    <h3 class="text-left">Transportation</h3>
+                    <p>
+                    Samsun is a long city which extends along the coast between two river deltas which jut into the Black Sea.
+                    It is located at the end of an ancient route from Cappadocia: the Amisos of antiquity lay on the headland northwest of the modern city center.
+                    The city is growing fast: land has been reclaimed from the sea and many more apartment blocks and shopping malls are currently being built.
+                    Industry is tending to move (or be moved) east, further away from the city center and towards the airport.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="thumbnail">
+                <img src="images/samsun/dag-01.jpg" alt="dag">
+                <div class="caption">
+                    <h3 class="text-left">Geography</h3>
+                    <p>
+                    Long distance buses the bus station is outside the city centre, but most bus companies provide a free transfer there if you have a ticket.
+                    Passenger and freight trains run to Sivas via Amasya. The train station is in the city center.
+                    Freight trains are taken by ferry to railways at Kavkaz in Russia, and will later see service to the port of Varna in Bulgaria and Poti in Georgia.[38]
+                    Modern trams run between the train station and Ondokuz Mayıs University. There is a plan to run electrically powered bus rapid transit between the railway station and Tekkekoy.
+                    City buses carry passengers actively.Dolmuş, the routes are numbered 1 to 4 and each route has different color minibuses.
+                    The 320 m (1,050 ft) long Samsun Amisos Hill Gondola serves from Batıpark the archaeological area on the Amisos Hill, where ancient tombs in tumuli were discovered.
+                    Samsun-Çarşamba Airport is 23 km (14 mi) east of the city center. It is possible to reach the airport by Havas service buses: they depart from the coach park close to Kultur Sarayi in the city center.Horse-drawn carriages,(Turkish:fayton) run along the seafront.
+                    There was automated bike rental along the seafront, but it is not currently operational.
+                    </p>
+                    <p><sub> This information is taken by <a href = "http://www.wikipedia.org" >  Wikipedia </a> </sub></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="thumbnail">
+                <div class="caption">
+                    <h3 class="text-left">Introduction Video</h3>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Lkm7fWvNFIc"></iframe>
+                 </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="thumbnail">
+                <div class="caption">
+                    <h3 class="text-left">Photos</h3>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                            <li data-target="#myCarousel" data-slide-to="5"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox" style="height: 600px;">
+                            <div class="item active">
+                                <img src="images/samsun/samsun.jpg" alt="First slide">
+                            </div>
+
+                            <div class="item">
+                                <img src="images/samsun/samsun-1.jpg"  alt="Second slide">
+                            </div>
+
+                            <div class="item">
+                                <img src="images/samsun/samsun-2.jpg" alt="Third slide">
+                            </div>
+
+                            <div class="item">
+                                <img src="images/samsun/samsun-3.jpg"  alt="Fourth slide">
+                            </div>
+
+                            <div class="item">
+                                <img src="images/samsun/samsun-4.jpg" alt="Fifth slide">
+                            </div>
+                            <div class="item">
+                                <img src="images/samsun/samsun-5.jpg" alt="Last slide">
+                            </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+</div> <!-- End container -->
+
+<div class="container modal-footer" >
+    <div>
+        <footer> Created by Murat KARA©
+        </footer>
+    </div>
+    <img src="images/Untitled-1-01.png" width="36px">
+</div> <!-- /container -->
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
